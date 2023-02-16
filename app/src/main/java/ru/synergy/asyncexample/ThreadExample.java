@@ -18,7 +18,7 @@ public class ThreadExample extends AppCompatActivity {
         public void handleMessage(@NonNull Message msg) {
             super.handleMessage(msg);
             TextView mInfoTextView = (TextView) findViewById(R.id.textViewinfo);
-            mInfoTextView.setText("Сегодня ворон было" + mCounter + "Штук");
+            mInfoTextView.setText("Сегодня ворон было " + mCounter + " Штук");
         }
     };
 
